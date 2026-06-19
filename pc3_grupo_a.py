@@ -16,4 +16,10 @@ print(f"verifiación  del request {response.status_code}")
 # un salida 200 indica que el request fue exitoso
 
 
+print(f"URL consultada: {response.url}")
+print(f"Content-Type recibido: {response.headers.get('Content-Type')}")
+
+
+
+
 
